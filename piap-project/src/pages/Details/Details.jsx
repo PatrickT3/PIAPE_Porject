@@ -1,3 +1,4 @@
+import "./Details.css";
 
 const Details = () => {
   return (

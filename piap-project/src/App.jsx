@@ -6,9 +6,8 @@ function App() {
   return (
     <>
      <main className='Main'>
-      <h1>Começou</h1>
+      <h1 id='textpirnc'>PIAPE</h1>
       <Outlet/>
-      <h2>fim</h2>
      </main>
     </>
   )

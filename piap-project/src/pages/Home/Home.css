@@ -1,0 +1,44 @@
+.div-home{
+    margin-top: 230px;
+}
+.animated-button {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 20px 40px;
+    border-radius: 30px; /* Bordas arredondadas para criar uma forma oval */
+    background-color: rgb(177, 177, 229);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    animation: crescerDiminuir 2s alternate infinite;
+    transform-origin: center;
+  }
+  
+  @keyframes crescerDiminuir {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+  .imgm {
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    height: 210px;
+    animation: girar 10s linear infinite; /* Rotaciona em 360 graus em 4 segundos de forma linear e infinita */
+  }
+  
+  @keyframes girar {
+    0% {
+      transform: rotate(0deg); /* Começa a rotação de 0 graus */
+    }
+    100% {
+      transform: rotate(360deg); /* Completa a rotação de 360 graus */
+    }
+  }
+  
