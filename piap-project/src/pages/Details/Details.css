@@ -1,6 +1,6 @@
 .div-details {
     padding-left: 0;
-    font-size: 30px;
+    font-size: 33px;
     width: 440px;
     margin: 220px auto;
     text-align: left;
@@ -12,7 +12,7 @@
 }
 .div-details label{
     display: block;
-    padding: 3px 0 3px 10px;
+    padding: 10px 0 10px 10px;
     background-color: rgb(177, 177, 229);
     color: aliceblue;
     border-radius: 20px;
@@ -25,8 +25,8 @@
 }
 .div-details label input[type="checkbox"] {
     
-    width: 25px; /* Largura personalizada do checkbox */
-    height: 20px; /* Altura personalizada do checkbox */
+    width: 30px; /* Largura personalizada do checkbox */
+    height: 30px; /* Altura personalizada do checkbox */
     margin-right: 10px; /* Espaçamento entre o checkbox e o texto */
 }
 #buttonn svg{
