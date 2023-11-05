@@ -1,19 +1,64 @@
 /* App.css */
 .App {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    color: #6b6969;
   }
+h2{
+  color: #808080;
+  font-size: 28px;
+  text-align: center;
+}
   
-  .botao {
-    font-size: 24px;
+.botao1,.botao2 {
+    font-size: 35px;
     margin: 0 10px;
     cursor: pointer;
-  }
+    width: 80px;
+    height: 80px;
+}
+.botao1 {
+    background-color: #4caf50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Sem sublinhado */
+    display: inline-block; /* Mostrar como elemento de bloco */ 
+    border-radius: 4px; /* Cantos arredondados */
+}
+.botao2 {
+    background-color: #f44336; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto branco */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Sem sublinhado */
+    display: inline-block; /* Mostrar como elemento de bloco */
+    margin: 4px 2px; /* Margem entre os botões */
+    cursor: pointer; /* Cursor do mouse */
+    border-radius: 4px; /* Cantos arredondados */
+}
   
-  .numero {
-    font-size: 48px;
-  }
   
+.numero {
+    font-size: 200px;
+    padding: 10px;
+    margin: 40px 15px;
+}
+
+.button-last{
+  width: 40%;
+  border-radius: 30px;
+  margin: 0 auto;
+  font-size: 38px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: rgb(177, 177, 229);
+  color: aliceblue;
+}
+.button-last:hover{
+  cursor: pointer;
+  background-color: blueviolet;   
+}

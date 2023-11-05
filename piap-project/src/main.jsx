@@ -6,6 +6,7 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Home from './pages/Home/Home.jsx';
 import Details from './pages/Details/Details.jsx';
 import NumberQ from './pages/NumberQ/NumberQ.jsx';
+import { Dload } from './pages/Dload/Dload.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,14 @@ const router = createBrowserRouter([
       {
         path: "/NumberQ",
         element: <NumberQ/>,
+      },
+      {
+        path: "/Dload",
+        element: <Dload/>,
+      },
+      {
+        path: "*",
+        element: <Home/>
       }
     ]
   }
