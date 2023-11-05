@@ -1,0 +1,17 @@
+.down{
+    font-size: 130px;
+}
+.down svg{
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 100px auto;
+    transition: background 0.3s ease;
+}
+.down svg:hover{
+    cursor: pointer;
+    color: blueviolet;
+}
