@@ -1,0 +1,50 @@
+.div-details {
+    padding-left: 0;
+    font-size: 30px;
+    width: 440px;
+    margin: 220px auto;
+    text-align: left;
+}
+.div-details h2{
+    color: #808080;
+    font-size: 35px;
+    text-align: center;
+}
+.div-details label{
+    display: block;
+    padding: 3px 0 3px 10px;
+    background-color: rgb(177, 177, 229);
+    color: aliceblue;
+    border-radius: 20px;
+    margin: 10px auto; 
+    font-weight: bold;   
+}
+.div-details label:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+.div-details label input[type="checkbox"] {
+    
+    width: 25px; /* Largura personalizada do checkbox */
+    height: 20px; /* Altura personalizada do checkbox */
+    margin-right: 10px; /* Espaçamento entre o checkbox e o texto */
+}
+#buttonn svg{
+    height: 80px;
+    width: 80px;
+    color: rgb(177, 177, 229);
+}
+#buttonn svg:hover{
+    cursor: pointer;
+    color: blueviolet;   
+
+}
+#buttonn{
+    display: block;
+    margin: 50px auto;
+    border: none;
+    background-color: aliceblue;
+}
+
+
+

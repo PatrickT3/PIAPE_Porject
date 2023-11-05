@@ -1,0 +1,19 @@
+/* App.css */
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .botao {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .numero {
+    font-size: 48px;
+  }
+  
