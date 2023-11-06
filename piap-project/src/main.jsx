@@ -7,6 +7,7 @@ import Home from './pages/Home/Home.jsx';
 import Details from './pages/Details/Details.jsx';
 import NumberQ from './pages/NumberQ/NumberQ.jsx';
 import { Dload } from './pages/Dload/Dload.jsx';
+import { LcContextProvider } from './context/LcContext.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <LcContextProvider>
+      <RouterProvider router={router}/>
+    </LcContextProvider>
   </React.StrictMode>,
 )

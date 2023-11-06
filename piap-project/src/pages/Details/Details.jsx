@@ -1,15 +1,17 @@
 import "./Details.css";
 import {BsFillArrowRightCircleFill} from "react-icons/bs";
 import { useState } from 'react';
-import {useNavigate} from "react-router-dom"
+import {useNavigate} from "react-router-dom";
+import { useContext } from "react";
+import { LcContext} from "../../context/LcContext"
 
 function Details() {
   const navigate = useNavigate();
-
+  const { setCurso } = useContext(LcContext);
   const [interesses, setInteresses] = useState({
-    redesComputadores: false,
-    realidadeVirtual: false,
-    inteligenciaArtificial: false
+    RedesComputadores: false,
+    RealidadeVirtual: false,
+    InteligenciaArtificial: false
   });
 
   const handleCheckboxChange = event => {
@@ -23,6 +25,7 @@ function Details() {
   const handleSubmit = event => {
     event.preventDefault();
     console.log(interesses);
+    setCurso(interesses);
     navigate("/NumberQ");
     // Faça algo com os interesses selecionados
   };

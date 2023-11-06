@@ -15,3 +15,11 @@
     cursor: pointer;
     color: blueviolet;
 }
+.info{
+    font-size: 18px;
+}
+.info span{
+    font-size: 28px;
+    color: blueviolet;
+    font-family: Agbalumo;
+}

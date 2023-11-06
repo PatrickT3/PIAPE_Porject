@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import './NumberQ.css';
-import {useNavigate} from "react-router-dom"
+import {useNavigate} from "react-router-dom";
+import { useContext } from "react";
+import { LcContext} from "../../context/LcContext";
 
 function NumberQ() {
   const [numero, setNumero] = useState(0);
   const navigate = useNavigate();
-
+  const { setNumQuestion } = useContext(LcContext);
   const aumentarNumero = () => {
     setNumero(numero + 2);
   };
@@ -15,6 +17,7 @@ function NumberQ() {
   };
   const gerarDoc = (numm) => {
     console.log(numm);
+    setNumQuestion(numm);
     navigate("/Dload");
   }
 
