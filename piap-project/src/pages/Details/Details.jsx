@@ -9,9 +9,9 @@ function Details() {
   const navigate = useNavigate();
   const { setCurso } = useContext(LcContext);
   const [interesses, setInteresses] = useState({
-    RedesComputadores: false,
-    RealidadeVirtual: false,
-    InteligenciaArtificial: false
+    redesComputadores: false,
+    realidadeVirtual: false,
+    inteligenciaArtificial: false
   });
 
   const handleCheckboxChange = event => {

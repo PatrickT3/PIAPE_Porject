@@ -11,7 +11,10 @@ export const Dload = () => {
     console.log(chavesTrue);
     const [dadosJSON, setDadosJSON] = useState([]);
     console.log(dadosJSON);
+    const arquivoURL = '../../../public/BANCO DE QUESTÕES - PIAPE.json';
+
     const clickfim = () => {
+        alert("Pronto!!");
         navigate("/");
     }
 
@@ -33,13 +36,15 @@ export const Dload = () => {
     return (
       <div>
         <div className="down">
-            <h2>Download PDF</h2>
-            <BsFillCloudDownloadFill onClick={clickfim}/>
+          <h2>Download PDF</h2>
+          <a href={arquivoURL} download="bd.json">
+            <BsFillCloudDownloadFill onClick={clickfim}/>  
+          </a>
         </div>
         <div className="info">
           <h3>INFO</h3>
-          <p>Curso: <span>{chavesTrue[0]} </span></p>
-          <p>Numero de Questões escolhidas: <span>{numQuestion}</span></p>
+          <p><span>{chavesTrue[0]} </span></p>
+          <p><span> {numQuestion} Questions</span></p>
         </div>
       </div>
   )

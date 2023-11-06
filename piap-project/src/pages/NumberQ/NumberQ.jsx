@@ -17,7 +17,7 @@ function NumberQ() {
   };
   const gerarDoc = (numm) => {
     console.log(numm);
-    setNumQuestion(numm);
+    setNumQuestion(numero);
     navigate("/Dload");
   }
 
